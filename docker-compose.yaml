@@ -1,0 +1,12 @@
+version: '3'
+services:
+  server:
+    image: marwaadel/simple_hello_app
+    ports:
+      - 8082:8080
+
+  client:
+    image: marwaadel/simple_form_app
+    environment:
+      SERVER_HOST: server
+      SERVER_PORT: 8080
