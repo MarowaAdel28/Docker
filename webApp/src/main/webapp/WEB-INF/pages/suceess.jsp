@@ -1,0 +1,1 @@
+<h1>user added successfully. his name is ${user.user_name} and password is ${user.password}</h1>
